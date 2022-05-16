@@ -1,0 +1,128 @@
+#guideTitle{
+    width: 100%;
+    background-color: rgb(158, 221, 76);
+}
+#guideSection{
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+#guideTitle .container{
+    width: 80%;
+    margin: auto;
+    max-width: 1550px;
+    background-color: red;
+}
+
+#guideSection > .container{
+    width: 80%;
+    margin: auto;
+    max-width: 1550px;
+    background-color: blue;
+}
+
+#guideTitle .guideTitle{
+    width: 100%;
+    padding: 15px 0; 
+}
+#guideSection .guideSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "gridItem1 gridItem2 gridItem3 gridItem7"
+        "gridItem4 gridItem5 gridItem6 gridItem7"
+    ;
+    gap: 20px;
+    direction: ltr;
+}
+.guide-item1{
+    grid-area: gridItem1 ;
+    background-color: #b22222;
+}
+.guide-item2{
+    grid-area: gridItem2 ;
+    background-color: #b21111;
+}
+.guide-item3{
+    grid-area: gridItem3 ;
+    background-color: #c33333;
+}
+.guide-item4{
+    grid-area: gridItem4 ;
+    background-color: #d45611;
+}
+.guide-item5{
+    grid-area: gridItem5 ;
+    background-color: #a15678;
+}
+.guide-item6{
+    grid-area: gridItem6 ;
+    background-color: #b25678;
+}
+.guide-item7{
+    grid-area: gridItem7 ;
+    background-color: #f21111;
+}
+.guideSection > div{
+    display: flex;
+    flex-direction: column;
+}
+.gridItem-img{
+    background-color: #ffff00;
+}
+.gridItem-text{
+    direction: rtl;
+    /* background-color: #79ad25; */
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+#guideSection>div .gridItem-img img{
+    width: 19vw;
+    height: 19vw;
+    max-width: 359px;
+    max-height: 211px;
+}
+
+.gridItem-text .cat{
+    font-size: 10px;
+    color: #ff0000;
+    font-weight: lighter;
+}
+.gridItem-text .desc{
+    font-size: 10px;
+    color: #000000;
+    font-weight: lighter;
+}
+
+.guide-item7{
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.guide-item7 .textContainer{
+    display: flex;
+    flex-direction: column;
+}
+.guide-item7 .textContainer .cat{
+    padding: 25px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.guide-item7 .textContainer .desc{
+    padding: 20px;
+    font-size: 17px;
+    color: #ffffff;
+}
+.guide-item7 .seeAll .container{
+    width: 90%;
+    margin: auto;
+    border-top: 1.5px solid #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}

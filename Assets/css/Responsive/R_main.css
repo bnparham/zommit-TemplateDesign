@@ -1,0 +1,121 @@
+@media(max-width:996px){
+    #left-side{
+        display: none;
+    }
+    #right-side  .container{
+        width: 90%;
+    }
+    #mainPosts .container{
+        width: 95%;
+    }
+    #layout-container{
+        grid-template-areas: 
+            "header header header"
+            "top-side top-side top-side"
+            "featureNews featureNews featureNews"
+            "main main main "
+            "guide guide guide"
+            "review review review"
+            "footer footer footer"
+        ;
+    }
+    .cat{
+        font-size: 1.5vw;
+    }
+    .sub{
+        font-size: 2vw;
+    }
+    .author{
+        font-size: 1.5vw;
+    }
+    .short-desc{
+        display: none;
+    }
+    #mainTitle .mainTitle h2{
+        font-size: 2vw;
+    }
+    
+    /* ===================== */
+    /* ===PageNavigation=== */
+    /* ==================== */
+    .num{
+        width: 4vw;
+        height: 4vw;
+        font-size: 2.1vw !important;
+    }
+    #counter{
+        font-size: 2.1vw;
+    }
+
+
+}
+@media(max-width:768px){
+    #right-side{
+        display: none;
+    }
+    #mainPosts .container{
+        width: 100%;
+    }
+    #layout-container{
+        grid-template-areas: 
+            "header header header"
+            "top-side top-side top-side"
+            "featureNews featureNews featureNews"
+            "main main main "
+            "guide guide guide"
+            "review review review"
+            "footer footer footer"
+        ;
+    }
+    #mainTitle .mainTitle{
+        width: 100%;
+        padding: 5px 0; 
+    }
+    #mainPosts .mainPosts .postContainer{
+        padding: 10px;
+    }
+    #mainPosts .mainPosts .postContainer .post-img img{
+        width: 30vw;
+        height: 20vw;
+    }
+    .sub{
+        padding: 0;
+    }
+    .cat{
+        display: none;
+    }
+    .short-desc{
+        display: none;
+    }
+    .author{
+        font-size: 2vw;
+    }
+    #mainTitle .mainTitle h2{
+        font-size: 3vw;
+    }
+    .fa-angle-right,.fa-angle-left{
+        font-size: 3vw;
+    }
+    /* ===================== */
+    /* ===PageNavigation=== */
+    /* ==================== */
+    #mainPageNavigation .mainPageNavigation{
+        padding: 20px 0;
+    }
+}
+@media(max-width:400px){
+    /* ===================== */
+    /* ===PageNavigation=== */
+    /* ==================== */
+    .num{
+        width: 5vw;
+        height: 5vw;
+        font-size: 4.1vw !important;
+    }
+    #counter{
+        font-size: 4.1vw;
+    }
+    .fa-angle-right,.fa-angle-left{
+        font-size: 4vw;
+    }
+}

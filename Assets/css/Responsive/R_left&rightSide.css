@@ -1,0 +1,13 @@
+@media(max-width:996px){
+    .right-side .posts-rightSideContainer .post_rightSide a{
+        font-size: 1.2vw;
+    }
+}
+@media(max-width:1400px){
+    .post_leftSide a{
+        font-size: 1vw;
+    }
+    .post_leftSide img{
+        width: 50%;
+    }
+}

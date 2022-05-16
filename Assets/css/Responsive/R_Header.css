@@ -1,0 +1,69 @@
+/* ---------- START (Header Section Css) ---------- */
+
+
+/* || Start Section : (TOP NavBar) || */
+
+@media (max-width: 996px){
+    #topNav{
+        display: none;
+    }
+}
+
+/* || END Section : (TOP NavBar) || */
+
+/* ........................................................................... */
+/* ........................................................................... */
+/* ........................................................................... */
+
+/* || Start Section : (Bottom NavBar) || */
+
+@media(max-width : 1180px){
+    #bottomNav .bottomNav .right-links  ul > li > a > span {
+        font-size: 1.1vw;
+    }
+    #bottomNav .bottomNav .left-links > li  > a > svg{
+        font-size: 1.4vw;
+        color: #ffffff;
+    }
+    
+}
+
+@media (max-width: 996px){
+    #bottomNav .bottomNav .right-links .DropDown-links{
+        display: none;
+    }
+    #bottomNav .bottomNav .right-links{
+        flex-grow: 1;
+        height: 70px;
+    }
+    #bottomNav .bottomNav .right-links .navbar-brand{
+        width: 100%;
+        justify-content: space-between;
+    }
+    #bottomNav .bottomNav .right-links .navbar-brand img{
+        margin: 0;
+        width: 170px;
+    }
+    #bottomNav .bottomNav .right-links .navbar-brand .hide-ico{
+        display: block;
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    #bottomNav .bottomNav .left-links{
+        display: none;
+    }
+}
+
+@media (max-width: 260px){
+    #bottomNav .bottomNav .right-links .navbar-brand img{
+        width: 60vw;
+    }
+
+    #bottomNav .bottomNav .right-links .navbar-brand .hide-ico{
+        font-size: 15px;
+    }
+}
+/* || END Section : (Bottom NavBar) || */
+
+/* ---------- END (Header Section Css) ---------- *

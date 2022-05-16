@@ -1,0 +1,43 @@
+@media (max-width: 996px){
+    #title .title h2{
+        font-size: 2vw;
+    }
+    .imgText{
+        font-size: 1.5vw;
+    }
+}
+@media(max-width : 768px){
+    #newsBox{
+        overflow-x: scroll;
+    }
+    #newsBox .container{
+        width: 130%;
+    }
+    #title .title h2{
+        font-size: 3vw;
+    }
+    .imgBox img{
+        width: 30vw;
+        height: 20vw;
+    }
+    .imgText{
+        font-size: 2vw;
+    }
+}
+@media (max-width: 400px){
+    #title .title h2{
+        font-size: 5vw;
+    }
+    .imgText{
+        font-size: 3vw;
+    }
+}
+@media (max-width: 260px){
+    .imgBox img{
+        width: 60vw;
+        height: 40vw;
+    }
+    .imgText{
+        font-size: 4vw;
+    }
+}

@@ -1,0 +1,71 @@
+#layout-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+        "header header header"
+        "top-side top-side top-side"
+        "featureNews featureNews featureNews"
+        "main main main"
+        "guide guide guide"
+        "review review review"
+        "footer footer footer"
+    ;
+    gap: 10px;
+}
+header{
+    grid-area: header;
+    background-color: lightblue;
+    display: flex;
+}
+main{
+    grid-area: main;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    grid-area: footer;
+    background-color: lightgreen;
+}
+#featureNews{
+    grid-area: featureNews;
+    background-color: lightseagreen;
+}
+#top-side{
+    grid-area: top-side;
+    background-color: lightcyan;
+}
+#right-side{
+    grid-area: right-side;
+    background-color: lightslategray;
+}
+#left-side{
+    grid-area: left-side;
+    background-color: lightgrey;
+}
+#guide{
+    grid-area: guide;
+    background-color: lightsalmon;
+}
+#review{
+    grid-area: review;
+    background-color: lightsteelblue;
+}
+
+.headerContainer,.top-sideContainer,.featureNewsContainer,.guideContainer,.reviewContainer,.footerContainer,.left-sideContainer,.right-sideContainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(194, 190, 185, 0.171);
+}
+.top-sideContainer,.featureNewsContainer{
+    align-items: center;
+}
+.left-sideContainer{
+    align-items: flex-start;
+}
+.right-sideContainer{
+    align-items: flex-end;
+}
